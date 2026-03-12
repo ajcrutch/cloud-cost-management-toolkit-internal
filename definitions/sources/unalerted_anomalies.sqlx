@@ -1,0 +1,8 @@
+-- This declaration makes the external tenant table "known" to
+-- Dataform's dependency graph, allowing other scripts to use ref().
+config {
+  type: "declaration",
+  database: dataform.projectConfig.defaultProject,
+  schema: dataform.projectConfig.defaultDataset,
+  name: "vw_unalerted_anomalies"
+}

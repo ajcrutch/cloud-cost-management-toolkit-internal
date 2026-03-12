@@ -1,0 +1,7 @@
+functions-framework==3.4.0
+Flask==2.3.3
+google-cloud-bigquery==3.25.0
+google-cloud-bigquery-storage  # Recommended for faster async BQ results
+httpx  # Async-compatible replacement for 'requests'
+pandas==2.2.2  # Add pandas for .to_dataframe() functionality
+db-dtypes==1.4.3
